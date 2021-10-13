@@ -11,7 +11,7 @@ def main():
             user = input("please make a choice(rock, paper, scissors, spock, lizard): ").lower()
             if user.lower() in actions:
                 break
-            print('Invalid value. You must pick either rock, paper, or scissors')
+            color_print('red', 'Invalid value. You must either pick rock, paper, scissors, spock or lizard')
         pc_choice = random.choice(actions)
         color_print("yellow", f"\nYou chose {user}, computer chose {pc_choice}.\n")
 
