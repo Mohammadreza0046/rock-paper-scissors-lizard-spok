@@ -23,7 +23,7 @@ def main():
             elif pc_choice == "lizard":
                 color_print("cyan", "Rock breaks lizard! VICTORY! ")
             elif pc_choice == "spock":
-                color_print("red", "spock vaporizes covers rock! You lose! ")
+                color_print("red", "spock vaporizes  rock! You lose! ")
             else:
                 color_print("red", "Paper covers rock! You lose! ")
         elif user == "paper":
